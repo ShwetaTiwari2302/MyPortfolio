@@ -3,8 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
@@ -15,7 +18,7 @@ header{
     z-index: 1000;
     background: #222;
     color: #ffffff;
-    padding: 40px 0px;
+    padding: 20px 0px;
 }
 .nav-container{
     display: flex;
@@ -110,7 +113,7 @@ h1{
 }
 #about img {
     max-width: 100%;
-    border-radius: 20px;
+    border-radius: 50%;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
 }
 #projects{
@@ -188,7 +191,7 @@ h1{
 }
 button{
     background-color: #00adcc;
-
+    margin-top: 10px;
     color: #ffffff;
     padding: 12px 24px;
     border-radius: 30px;
